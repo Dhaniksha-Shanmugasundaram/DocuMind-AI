@@ -1,0 +1,23 @@
+
+# Environment variables
+.env
+.env.*
+
+# Allow sample environment file
+!.env.example
+
+# Python virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Pytest cache
+.pytest_cache/
+
+# Uploaded documents
+storage/uploads/
+
+# FAISS vector indexes
+storage/indexes/
